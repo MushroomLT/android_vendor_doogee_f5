@@ -24,14 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     vendor/doogee/f5/proprietary/lib64/libbluetoothdrv.so:system/lib64/libbluetoothdrv.so \
     vendor/doogee/f5/proprietary/bin/mtkbt:system/bin/mtkbt \
-    vendor/doogee/f5/proprietary/app/MtkBt/arm64/MtkBt.odex:system/app/MtkBt/arm64/MtkBt.odex \
     vendor/doogee/f5/proprietary/app/MtkBt/arm/MtkBt.odex:system/app/MtkBt/arm/MtkBt.odex \
     vendor/doogee/f5/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
-    vendor/doogee/f5/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
-    vendor/doogee/f5/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin \
-    vendor/doogee/f5/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
-    vendor/doogee/f5/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
-    vendor/doogee/f5/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
     vendor/doogee/f5/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
     vendor/doogee/f5/proprietary/lib64/libcamera_client_mtk.so:system/lib64/libcamera_client_mtk.so \
     vendor/doogee/f5/proprietary/lib64/hw/camera.mt6753.so:system/lib64/hw/camera.mt6753.so \
@@ -160,11 +154,11 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/doogee/f5/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/doogee/f5/proprietary/bin/xlog:system/bin/xlog \
-    vendor/doogee/f5/proprietary/bin/test/fpsvcd/auto_test.sh:system/bin/test/fpsvcd/auto_test.sh \
-    vendor/doogee/f5/proprietary/bin/test/fpsvcd/fpsvcd_c:system/bin/test/fpsvcd/fpsvcd_c \
-    vendor/doogee/f5/proprietary/bin/test/fpsvcd/fpsvcd_s:system/bin/test/fpsvcd/fpsvcd_s \
-    vendor/doogee/f5/proprietary/bin/test/slcryption/sl_sec_encode:system/bin/test/slcryption/sl_sec_encode \
-    vendor/doogee/f5/proprietary/bin/test/slversion/slver:system/bin/test/slversion/slver \
+    vendor/doogee/f5/proprietary/bin/test64/fpsvcd/auto_test.sh:system/bin/test64/fpsvcd/auto_test.sh \
+    vendor/doogee/f5/proprietary/bin/test64/fpsvcd/fpsvcd_c:system/bin/test64/fpsvcd/fpsvcd_c \
+    vendor/doogee/f5/proprietary/bin/test64/fpsvcd/fpsvcd_s:system/bin/test64/fpsvcd/fpsvcd_s \
+    vendor/doogee/f5/proprietary/bin/test64/slcryption/sl_sec_encode:system/bin/test64/slcryption/sl_sec_encode \
+    vendor/doogee/f5/proprietary/bin/test64/slversion/slver:system/bin/test64/slversion/slver \
     vendor/doogee/f5/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/doogee/f5/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/doogee/f5/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
@@ -278,7 +272,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
     vendor/doogee/f5/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
     vendor/doogee/f5/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
-    vendor/doogee/f5/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
     vendor/doogee/f5/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
     vendor/doogee/f5/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
     vendor/doogee/f5/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
@@ -286,6 +279,10 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/doogee/f5/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/doogee/f5/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
+    vendor/doogee/f5/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+    vendor/doogee/f5/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
+    vendor/doogee/f5/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    vendor/doogee/f5/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
     vendor/doogee/f5/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/doogee/f5/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/doogee/f5/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
