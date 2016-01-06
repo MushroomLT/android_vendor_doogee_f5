@@ -215,8 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/doogee/f5/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/doogee/f5/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
-    vendor/doogee/f5/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/doogee/f5/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/doogee/f5/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/doogee/f5/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
     vendor/doogee/f5/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
