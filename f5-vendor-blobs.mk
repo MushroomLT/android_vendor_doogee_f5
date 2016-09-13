@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/doogee/f5/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
     vendor/doogee/f5/proprietary/lib64/hw/audio.primary.mt6753.so:system/lib64/hw/audio.primary.mt6753.so \
+    vendor/doogee/f5/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/doogee/f5/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/doogee/f5/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/doogee/f5/proprietary/bin/6620_launcher:system/bin/6620_launcher \
@@ -215,6 +216,8 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/doogee/f5/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/doogee/f5/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
+    vendor/doogee/f5/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/doogee/f5/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/doogee/f5/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/doogee/f5/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
     vendor/doogee/f5/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
