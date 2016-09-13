@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/f5/proprietary/lib/hw/audio.primary.mt6753.so:system/lib/hw/audio.primary.mt6753.so \
     vendor/doogee/f5/proprietary/lib/hw/camera.mt6753.so:system/lib/hw/camera.mt6753.so \
     vendor/doogee/f5/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/doogee/f5/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/doogee/f5/proprietary/lib/hw/gralloc.mt6753.so:system/lib/hw/gralloc.mt6753.so \
     vendor/doogee/f5/proprietary/lib/hw/hwcomposer.mt6753.so:system/lib/hw/hwcomposer.mt6753.so \
     vendor/doogee/f5/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
